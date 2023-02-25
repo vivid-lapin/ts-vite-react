@@ -18,26 +18,24 @@
   },
   "devDependencies": {
     "@ci7lus/eslint-config": "^1.1.1",
-    "@types/react": "^18.0.25",
-    "@types/react-dom": "^18.0.8",
-    "@vitejs/plugin-react": "^2.2.0",
-    "husky": "^8.0.2",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
-    "typescript": "^4.8.4",
-    "vite": "^3.2.3"
-  },
-  "peerDependencies": {
-    "eslint": "^7.32.0"
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.34.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --max-warnings 0 --cache",
     "*.{js,ts,tsx,md}": "prettier"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@mantine/core": "^5.7.1",
-    "@mantine/hooks": "^5.7.1",
+    "@emotion/react": "^11.10.6",
+    "@mantine/core": "^5.10.4",
+    "@mantine/hooks": "^5.10.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
