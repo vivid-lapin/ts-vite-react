@@ -18,27 +18,31 @@
   },
   "devDependencies": {
     "@ci7lus/eslint-config": "^1.2.1",
-    "@types/react": "^18.2.24",
-    "@types/react-dom": "^18.2.8",
-    "@vitejs/plugin-react": "^4.1.0",
-    "eslint": "^8.50.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "postcss": "^8.4.31",
-    "postcss-preset-mantine": "^1.8.0",
+    "lint-staged": "^15.2.0",
+    "postcss": "^8.4.33",
+    "postcss-preset-mantine": "^1.12.3",
     "postcss-simple-vars": "^7.0.1",
-    "prettier": "^3.0.3",
-    "typescript": "^5.2.2",
-    "vite": "^4.4.9"
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --max-warnings 0 --cache",
     "*.{js,ts,tsx,md}": "prettier"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@mantine/core": "^7.1.2",
-    "@mantine/hooks": "^7.1.2",
+    "@emotion/react": "^11.11.3",
+    "@mantine/core": "^7.4.1",
+    "@mantine/hooks": "^7.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
